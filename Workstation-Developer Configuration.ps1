@@ -19,6 +19,7 @@ choco install treesizefree -y --allowEmptyChecksums
 choco install scansnapmanager -y
 choco install microsoft-edge-insider -y
 choco install gitter -y
+choco install spotify -y
 
 #Development
 choco install visualstudio2019enterprise -y
