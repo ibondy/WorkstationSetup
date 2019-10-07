@@ -20,10 +20,12 @@ choco install scansnapmanager -y
 choco install microsoft-edge-insider -y
 choco install gitter -y
 choco install spotify -y
+choco install microsoft-windows-terminal -y
 
 #Development
 choco install visualstudio2019enterprise -y
 choco install VisualStudioCode -y
+choco install intellijidea-ultimate -y
 choco install fiddler4 -y
 choco install git -y
 choco install powershell-core -y
@@ -87,7 +89,7 @@ Enable-WindowsOptionalFeature -FeatureName Containers -Online -NoRestart
  Install-Module -Name AzureRM -Force -SkipPublisherCheck
  Install-Module WslInterop
  Import-WslCommand "awk", "emacs", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "tail", "vim"
- 
+  
  #AZ-CLI Modules
  az extension add -y --source https://azureclitemp.blob.core.windows.net/spring-cloud/spring_cloud-0.1.0-py2.py3-none-any.whl
  
