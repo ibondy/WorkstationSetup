@@ -21,6 +21,7 @@ choco install microsoft-edge-insider -y
 choco install gitter -y
 choco install spotify -y
 choco install microsoft-windows-terminal -y
+choco install telnet -y
 
 #Development
 choco install visualstudio2019enterprise -y
