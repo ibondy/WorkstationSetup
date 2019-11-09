@@ -31,6 +31,7 @@ choco install VisualStudioCode -y
 choco install intellijidea-ultimate -y
 choco install fiddler4 -y
 choco install git -y
+choco install tortoisegit -y
 choco install powershell-core -y
 choco install resharper-platform -y
 choco install docker-for-windows --pre -y
