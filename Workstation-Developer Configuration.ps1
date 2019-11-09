@@ -17,11 +17,13 @@ choco install 7zip -y
 choco install Winmerge -y --allowEmptyChecksums
 choco install treesizefree -y --allowEmptyChecksums
 choco install scansnapmanager -y
-choco install microsoft-edge-insider -y
+choco install microsoft-edge-insider-dev -y
 choco install gitter -y
 choco install spotify -y
 choco install microsoft-windows-terminal -y
 choco install telnet -y
+choco install openssh -y
+
 
 #Development
 choco install visualstudio2019enterprise -y
@@ -32,8 +34,8 @@ choco install git -y
 choco install powershell-core -y
 choco install resharper-platform -y
 choco install docker-for-windows --pre -y
-choco install Curl -y
-choco install -y postman
+choco install curl -y
+choco install postman -y
 choco install postman -y
 choco install sql-server-management-studio -y
 
@@ -46,6 +48,7 @@ choco install kubernetes-helm -y
 #choco install minishift -y
 
 #Java & OSS
+choco install openjdk -y
 choco install zulu -y
 choco install maven -y
 choco install nodejs -y
@@ -62,6 +65,7 @@ choco install azurestorageemulator -y
 choco install azure-cli -y
 choco install windowsazurepowershell -y
 choco install azure-functions-core-tools -y
+choco install az.powershell -y
 
 
 Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online -NoRestart
@@ -73,7 +77,7 @@ Enable-WindowsOptionalFeature -FeatureName Containers -Online -NoRestart
  code --install-extension ms-vscode.mono-debug
  code --install-extension ms-vscode.PowerShell
  code --install-extension ecmel.vscode-spring-boot
-     
+ code --install-extension ms-vsts.team    
  code --install-extension ms-vscode.Theme-MarkdownKit 
  code --install-extension sivarajanraju.vs-code-office-ui-fabric 
  code --install-extension ms-vscode.vscode-azureextensionpack
