@@ -29,7 +29,7 @@ choco install openssh -y
 
 
 #Development
-#choco install visualstudio2019enterprise -y
+choco install visualstudio2019enterprise -y
 choco install VisualStudioCode -y
 choco install intellijidea-ultimate -y
 choco install fiddler4 -y
