@@ -14,12 +14,9 @@ Enable-WindowsOptionalFeature -FeatureName Containers -Online -NoRestart
 #Tools
 choco install keepass -y
 choco install notepadplusplus -y
-choco install freefilesync -y
-choco install paint.net -y --allowEmptyChecksums
 choco install 7zip -y
 choco install Winmerge -y --allowEmptyChecksums
 choco install treesizefree -y --allowEmptyChecksums
-choco install scansnapmanager -y
 choco install microsoft-edge-insider-dev -y
 choco install gitter -y
 choco install spotify -y
@@ -40,23 +37,13 @@ choco install resharper-platform -y
 choco install docker-for-windows --pre -y
 choco install curl -y
 choco install postman -y
-choco install postman -y
-choco install sql-server-management-studio -y
 
 #Kubernetes
 choco install kubernetes-cli -y
 choco install draft -y
 choco install kubernetes-helm -y
 
-#choco install GoogleChrome -y
-#choco install minishift -y
-
-#Java & OSS
-#choco install openjdk -y
-#choco install zulu -y
-#choco install maven -y
-#choco install nodejs -y
-#choco install python3 -y
+#OSS
 choco install wsl-ubuntu-1804 -y
 choco install terraform -y
 
