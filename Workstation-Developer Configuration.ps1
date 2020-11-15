@@ -44,7 +44,7 @@ choco install sql-server-management-studio -y
 choco install kubernetes-cli -y
 choco install draft -y
 choco install kubernetes-helm -y
-
+choco install minikube -y
 #choco install GoogleChrome -y
 #choco install minishift -y
 
