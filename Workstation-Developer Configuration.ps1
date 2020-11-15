@@ -27,7 +27,7 @@ choco install openssh -y
 
 #Development
 choco install visualstudio2019enterprise -y
-choco install VisualStudioCode -y
+choco install vscode-insiders -y
 choco install intellijidea-ultimate -y
 choco install fiddler4 -y
 choco install git -y
@@ -39,6 +39,7 @@ choco install curl -y
 choco install postman -y
 choco install postman -y
 choco install sql-server-management-studio -y
+choco install ravendb -y
 
 #Kubernetes
 choco install kubernetes-cli -y
