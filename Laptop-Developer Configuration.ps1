@@ -34,7 +34,7 @@ choco install git -y
 choco install tortoisegit -y
 choco install powershell-core -y
 choco install resharper-platform -y
-choco install docker-for-windows --pre -y
+#choco install docker-for-windows --pre -y
 choco install curl -y
 choco install postman -y
 
