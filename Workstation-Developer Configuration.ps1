@@ -37,7 +37,6 @@ choco install resharper-platform -y
 choco install docker-for-windows --pre -y
 choco install curl -y
 choco install postman -y
-choco install postman -y
 choco install sql-server-management-studio -y
 choco install ravendb -y
 
