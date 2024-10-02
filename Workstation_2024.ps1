@@ -15,7 +15,7 @@ winget install --id WinMerge.WinMerge
 winget install --id JAMSoftware.TreeSizeFree
 choco install scansnapmanager -y
 winget install --id Microsoft.EdgeBeta
-winget install --id Gitlab,Gitter.IM
+winget install --id Gitlab.Gitter.IM
 winget install --id Spotify.Spotify
 winget install --id Microsoft.WindowsTerminal
 winget install --id PuTTY.PuTTY
