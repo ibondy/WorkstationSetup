@@ -21,7 +21,7 @@ winget install --id Microsoft.WindowsTerminal
 winget install --id PuTTY.PuTTY
 
 #Development
-winget install --id Microsoft.VisualStudio.2019.Enterprise
+winget install --id Microsoft.VisualStudio.2022.Enterprise
 winget install --id Telerik.Fiddler
 winget install Git.Git
 winget install --id Tortoisegit.Tortoisegit  
@@ -45,7 +45,7 @@ winget install --id OpenJS.Nodejs
 winget install Python.Python3
 
 #OSS
-winget install Canonical.Ubuntu.2204
+winget install Canonical.Ubuntu.2404
 
 #Azure
 winget install --id Microsoft.AzureStorageExplorer
