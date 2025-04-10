@@ -13,23 +13,23 @@ winget install -id Notepad++.Notepad++
 winget install --id 7zip.7zip
 winget install --id WinMerge.WinMerge
 winget install --id JAMSoftware.TreeSizeFree
-choco install scansnapmanager -y
+# choco install scansnapmanager -y
 winget install --id Microsoft.EdgeBeta
-winget install --id Gitlab.Gitter.IM
+#winget install --id Gitlab.Gitter.IM
 winget install --id Spotify.Spotify
-winget install --id Microsoft.WindowsTerminal
+#winget install --id Microsoft.WindowsTerminal
 winget install --id PuTTY.PuTTY
 
 #Development
-winget install --id Microsoft.VisualStudio.2022.Enterprise
+winget install --id Microsoft.VisualStudio.2022.Enterprise.Preview -e
 winget install --id Telerik.Fiddler
 winget install Git.Git
 winget install --id Tortoisegit.Tortoisegit  
 winget install --id Microsoft.PowerShell
-winget install --id JetBrains.Resharper
+#winget install --id JetBrains.Resharper
 winget install --id Docker.DockerDesktop
 winget install --id cURL.cURL
-winget install --id Postman.Postman
+#winget install --id Postman.Postman
 winget install --id Microsoft.SQLServerManagementStudio
 
 #Kubernetes
