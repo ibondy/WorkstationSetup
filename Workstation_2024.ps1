@@ -4,7 +4,7 @@ Enable-WindowsOptionalFeature -FeatureName Containers -Online -NoRestart
 Enable-WindowsOptionalFeature -FeatureName Microsoft_remoteDesktopConnection -Online -NoRestart
 Enable-WindowsOptionalFeature -FeatureName Containers-DisposableClientVM -Online -NoRestart
 
-winget install --id Microsoft.VisualStudioCode.Insiders
+#Office
 winget install --id Microsoft.Office
 winget install --id Microsoft.Teams
 winget install --id Microsoft.PowerBI
@@ -17,7 +17,7 @@ winget install --id WinMerge.WinMerge
 winget install --id JAMSoftware.TreeSizeFree
 winget install --id Microsoft.Edge
 winget install --id Spotify.Spotify
-winget install --id 9N0DX20HK701 #Microsoft.Windows.terminal
+winget install --id Microsoft.WindowsTerminal
 winget install --id PuTTY.PuTTY
 winget install --id Logitech.Options 
 winget install --id Microsoft.PowerToys
@@ -27,6 +27,7 @@ winget install --id Microsoft.WindowsAdminCenter
 winget install --id Citrix.Workspace 
 
 #Development
+winget install --id Microsoft.VisualStudioCode.Insiders
 winget install --id Microsoft.VisualStudio.2022.Enterprise.Preview -e
 winget install --id Microsoft.DotNet.SDK.9
 winget install --id Microsoft.VisualStudio.2022.Enterprise.Preview -e
@@ -57,6 +58,7 @@ winget install --id Microsoft.StorageEmulator
 winget install --id Microsoft.AzureCLI
 winget install --id Microsoft.AzureFunctionsCoreTools
 winget install --id Microsoft.AzureDataStudio
+winget install --id Microsoft.Azd
 
 #developer mode enabled
  reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
