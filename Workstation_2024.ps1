@@ -19,6 +19,12 @@ winget install --id Microsoft.Edge
 winget install --id Spotify.Spotify
 winget install --id 9N0DX20HK701 #Microsoft.Windows.terminal
 winget install --id PuTTY.PuTTY
+winget install --id Logitech.Options 
+winget install --id Microsoft.PowerToys
+winget install --id Prusa3D.PrusaSlicer
+winget install --id Yubico.Authenticator
+winget install --id Microsoft.WindowsAdminCenter
+winget install --id Citrix.Workspace 
 
 #Development
 winget install --id Microsoft.VisualStudio.2022.Enterprise.Preview -e
@@ -61,3 +67,8 @@ Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
 Install-Module -Name AzureRM -Force -SkipPublisherCheck
 Install-Module WslInterop
 Import-WslCommand "awk", "emacs", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "tail", "vim"
+
+#Anyrail
+#Itrain
+#ScanSnap manager
+#LorexCloud
