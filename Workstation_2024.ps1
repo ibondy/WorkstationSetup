@@ -39,6 +39,7 @@ winget install --id Git.Git
 winget install --id Tortoisegit.Tortoisegit  
 winget install --id Microsoft.PowerShell
 winget install --id cURL.cURL
+winget install --id Docker.DockerDesktop
 winget install --id RedHat.Podman-Desktop
 
 #Kubernetes
