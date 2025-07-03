@@ -9,7 +9,7 @@ winget install --id Microsoft.Office
 winget install --id Microsoft.Teams
 winget install --id Microsoft.PowerBI
 
-#Tools
+#General software
 winget install --id DominikReichl.KeePass
 winget install -id Notepad++.Notepad++
 winget install --id 7zip.7zip
@@ -25,6 +25,9 @@ winget install --id Prusa3D.PrusaSlicer
 winget install --id Yubico.Authenticator
 winget install --id Microsoft.WindowsAdminCenter
 winget install --id Citrix.Workspace 
+winget install --id Poly.PlantronicsHub  
+winget install --id Microsoft.WindowsAdminCenter 
+
 
 #Development
 winget install --id Microsoft.VisualStudioCode.Insiders
