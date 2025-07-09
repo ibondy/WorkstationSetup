@@ -27,6 +27,7 @@ winget install --id Microsoft.WindowsAdminCenter
 winget install --id Citrix.Workspace 
 winget install --id Poly.PlantronicsHub  
 winget install --id Microsoft.WindowsAdminCenter 
+winget install --id 9WZDNCRFHWLH #HP Smart Print
 
 
 #Development
@@ -75,6 +76,6 @@ Install-Module WslInterop
 Import-WslCommand "awk", "emacs", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "tail", "vim"
 
 #Anyrail
-#Itrain
+#iTrain
 #ScanSnap manager
 #LorexCloud
