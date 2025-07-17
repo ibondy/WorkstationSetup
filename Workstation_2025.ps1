@@ -57,9 +57,9 @@ winget install Python.Python3
 winget install Canonical.Ubuntu.2404
 
 #Azure
-winget install --id Microsoft.AzureStorageExplorer
-winget install --id Microsoft.CosmosEmulator
-winget install --id Microsoft.StorageEmulator
+winget install --id Microsoft.Azure.AzureStorageExplorer
+winget install --id Microsoft.Azure.CosmosEmulator
+winget install --id Microsoft.Azure.StorageEmulator
 winget install --id Microsoft.AzureCLI
 winget install --id Microsoft.AzureFunctionsCoreTools
 winget install --id Microsoft.AzureDataStudio
