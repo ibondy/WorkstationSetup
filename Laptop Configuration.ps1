@@ -5,39 +5,35 @@ Enable-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All -Online -NoRest
 Enable-WindowsOptionalFeature -FeatureName Containers -Online -NoRestart
 
 #Office
-winget install --id Microsoft.Office
-winget install --id Microsoft.Teams
-winget install --id Microsoft.PowerBI
+#winget install --id Microsoft.Office
+#winget install --id Microsoft.Teams
+winget install --id Microsoft.PowerBI --source winget-pkgs
 
 
 #General software
-winget install --id DominikReichl.KeePass
-winget install --id 7zip.7zip
-winget install --id WinMerge.WinMerge
-winget install --id JAMSoftware.TreeSizeFree
-winget install --id Microsoft.Edge
-winget install --id Spotify.Spotify
-winget install --id Microsoft.WindowsTerminal
-winget install --id PuTTY.PuTTY
-winget install --id Logitech.Options 
-winget install --id Microsoft.PowerToys
-winget install --id Poly.PlantronicsHub  
-winget install --id 9WZDNCRFHWLH #HP Smart Print
+winget install --id DominikReichl.KeePass --source winget-pkgs
+winget install --id 7zip.7zip --source winget-pkgs
+winget install --id Microsoft.Edge --source winget-pkgs
+winget install --id Spotify.Spotify --source winget-pkgs
+winget install --id Microsoft.WindowsTerminal --source winget-pkgs
+winget install --id PuTTY.PuTTY --source winget-pkgs
+winget install --id Microsoft.PowerToys --source winget-pkgs
+winget install --id 9WZDNCRFHWLH --source winget-pkgs #HP Smart Print
 #Development
-winget install --id Microsoft.VisualStudioCode.Insiders
-winget install --id Microsoft.VisualStudio.2026.Enterprise.Preview -e
-winget install --id Git.Git
-winget install --id Tortoisegit.Tortoisegit  
-winget install --id Microsoft.PowerShell
-winget install --id cURL.cURL
+winget install --id Microsoft.VisualStudioCode.Insiders --source winget-pkgs
+winget install --id Microsoft.VisualStudio.2026.Enterprise.Preview -e --source winget-pkgs
+winget install --id Git.Git --source winget-pkgs
+winget install --id Tortoisegit.Tortoisegit  --source winget-pkgs
+winget install --id Microsoft.PowerShell --source winget-pkgs
+winget install --id cURL.cURL --source winget-pkgs
 #Azure
-winget install --id Microsoft.Azure.AzureStorageExplorer
-winget install --id Microsoft.Azure.CosmosEmulator
-winget install --id Microsoft.Azure.StorageEmulator
-winget install --id Microsoft.AzureCLI
-winget install --id Microsoft.AzureFunctionsCoreTools
-winget install --id Microsoft.AzureDataStudio
-winget install --id Microsoft.Azd
+winget install --id Microsoft.Azure.AzureStorageExplorer --source winget-pkgs
+winget install --id Microsoft.Azure.CosmosEmulator --source winget-pkgs
+winget install --id Microsoft.Azure.StorageEmulator --source winget-pkgs
+winget install --id Microsoft.AzureCLI --source winget-pkgs
+winget install --id Microsoft.AzureFunctionsCoreTools --source winget-pkgs
+winget install --id Microsoft.AzureDataStudio --source winget-pkgs
+winget install --id Microsoft.Azd --source winget-pkgs
 
 
 #VS Code extensions
