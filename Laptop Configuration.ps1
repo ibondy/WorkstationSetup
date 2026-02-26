@@ -11,29 +11,28 @@ winget install --id Microsoft.PowerBI --source winget-pkgs
 
 
 #General software
-winget install --id DominikReichl.KeePass --source winget-pkgs
-winget install --id 7zip.7zip --source winget-pkgs
-winget install --id Microsoft.Edge --source winget-pkgs
-winget install --id Spotify.Spotify --source winget-pkgs
-winget install --id Microsoft.WindowsTerminal --source winget-pkgs
-winget install --id PuTTY.PuTTY --source winget-pkgs
-winget install --id Microsoft.PowerToys --source winget-pkgs
-winget install --id 9WZDNCRFHWLH --source winget-pkgs #HP Smart Print
+winget install --id DominikReichl.KeePass --source winget
+winget install --id 7zip.7zip --source winget
+winget install --id Microsoft.Edge --source winget
+winget install --id Microsoft.WindowsTerminal --source winget
+winget install --id PuTTY.PuTTY --source winget
+winget install --id Microsoft.PowerToys --source winget
+winget install --id 9WZDNCRFHWLH --source winget #HP Smart Print
 #Development
-winget install --id Microsoft.VisualStudioCode.Insiders --source winget-pkgs
-winget install --id Microsoft.VisualStudio.2026.Enterprise.Preview -e --source winget-pkgs
-winget install --id Git.Git --source winget-pkgs
-winget install --id Tortoisegit.Tortoisegit  --source winget-pkgs
-winget install --id Microsoft.PowerShell --source winget-pkgs
-winget install --id cURL.cURL --source winget-pkgs
+winget install --id Microsoft.VisualStudioCode.Insiders --source winget
+winget install --id Microsoft.VisualStudio.2026.Enterprise.Preview -e --source winget
+winget install --id Git.Git --source winget
+winget install --id Tortoisegit.Tortoisegit  --source winget
+winget install --id Microsoft.PowerShell --source winget
+winget install --id cURL.cURL --source winget
 #Azure
-winget install --id Microsoft.Azure.AzureStorageExplorer --source winget-pkgs
-winget install --id Microsoft.Azure.CosmosEmulator --source winget-pkgs
-winget install --id Microsoft.Azure.StorageEmulator --source winget-pkgs
-winget install --id Microsoft.AzureCLI --source winget-pkgs
-winget install --id Microsoft.AzureFunctionsCoreTools --source winget-pkgs
-winget install --id Microsoft.AzureDataStudio --source winget-pkgs
-winget install --id Microsoft.Azd --source winget-pkgs
+winget install --id Microsoft.Azure.AzureStorageExplorer --source winget
+winget install --id Microsoft.Azure.CosmosEmulator --source winget
+winget install --id Microsoft.Azure.StorageEmulator --source winget
+winget install --id Microsoft.AzureCLI --source winget
+winget install --id Microsoft.AzureFunctionsCoreTools --source winget
+winget install --id Microsoft.AzureDataStudio --source winget
+winget install --id Microsoft.Azd --source winget
 
 
 #VS Code extensions
