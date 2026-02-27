@@ -1,18 +1,17 @@
-# Windows Optional Features
-Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online -NoRestart
+﻿Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online -NoRestart
 Enable-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All -Online -NoRestart
 Enable-WindowsOptionalFeature -FeatureName Containers -Online -NoRestart
 Enable-WindowsOptionalFeature -FeatureName Microsoft_remoteDesktopConnection -Online -NoRestart
 Enable-WindowsOptionalFeature -FeatureName Containers-DisposableClientVM -Online -NoRestart
 
-# Office
+#Office
 winget install --id Microsoft.Office
 winget install --id Microsoft.Teams
 winget install --id Microsoft.PowerBI
 
-# General Software
+#General software
 winget install --id DominikReichl.KeePass
-winget install --id Notepad++.Notepad++
+winget install -id Notepad++.Notepad++
 winget install --id 7zip.7zip
 winget install --id WinMerge.WinMerge
 winget install --id JAMSoftware.TreeSizeFree
@@ -20,41 +19,44 @@ winget install --id Microsoft.Edge
 winget install --id Spotify.Spotify
 winget install --id Microsoft.WindowsTerminal
 winget install --id PuTTY.PuTTY
-winget install --id Logitech.Options
+winget install --id Logitech.Options 
 winget install --id Microsoft.PowerToys
 winget install --id Prusa3D.PrusaSlicer
 winget install --id Yubico.Authenticator
 winget install --id Microsoft.WindowsAdminCenter
-winget install --id Citrix.Workspace
-winget install --id Poly.PlantronicsHub
-winget install --id 9WZDNCRFHWLH # HP Smart Print
+winget install --id Citrix.Workspace 
+winget install --id Poly.PlantronicsHub  
+winget install --id Microsoft.WindowsAdminCenter 
+winget install --id 9WZDNCRFHWLH #HP Smart Print
 
-# Development Tools
+
+#Development
 winget install --id Microsoft.VisualStudioCode.Insiders
-winget install --id Microsoft.VisualStudio.2026.Enterprise.Preview -e
+winget install --id Microsoft.VisualStudio.2022.Enterprise.Preview -e
 winget install --id Microsoft.DotNet.SDK.9
+winget install --id Microsoft.VisualStudio.2022.Enterprise.Preview -e
 winget install --id Telerik.Fiddler
 winget install --id Git.Git
-winget install --id Tortoisegit.Tortoisegit
+winget install --id Tortoisegit.Tortoisegit  
 winget install --id Microsoft.PowerShell
 winget install --id cURL.cURL
 winget install --id Docker.DockerDesktop
 winget install --id RedHat.Podman-Desktop
 
-# Kubernetes
-winget install --id Derailed.k9s
+#Kubernetes
+winget install --id Derailed.k9s  #kubernetes-cli 
 winget install --id Helm.Helm
 
-# Development Runtimes
+#Java
 winget install --id Microsoft.OpenJDK.21
 winget install --id tantowi.maven
 winget install --id OpenJS.Nodejs
-winget install --id Python.Python3
+winget install Python.Python3
 
-# Linux Distribution
-winget install --id Canonical.Ubuntu.2404
+#OSS
+winget install Canonical.Ubuntu.2404
 
-# Azure Tools
+#Azure
 winget install --id Microsoft.Azure.AzureStorageExplorer
 winget install --id Microsoft.Azure.CosmosEmulator
 winget install --id Microsoft.Azure.StorageEmulator
@@ -63,16 +65,17 @@ winget install --id Microsoft.AzureFunctionsCoreTools
 winget install --id Microsoft.AzureDataStudio
 winget install --id Microsoft.Azd
 
-# Enable Developer Mode
-reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
-
-# PowerShell Modules
+#developer mode enabled
+ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
+ 
+#PowerShell Modules
+winget install --id Microsoft.Powershell
 Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
 Install-Module -Name AzureRM -Force -SkipPublisherCheck
 Install-Module WslInterop
 Import-WslCommand "awk", "emacs", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "tail", "vim"
 
-# Manual Installations Required
-# - Anyrail
-# - iTrain
-# - LorexCloud
+#Anyrail
+#iTrain
+#ScanSnap manager
+#LorexCloud

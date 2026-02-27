@@ -1,4 +1,4 @@
-# Windows Optional Features
+﻿# Windows Optional Features
 Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online -NoRestart
 Enable-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All -Online -NoRestart
 Enable-WindowsOptionalFeature -FeatureName Containers -Online -NoRestart
@@ -31,7 +31,7 @@ winget install --id 9WZDNCRFHWLH # HP Smart Print
 
 # Development Tools
 winget install --id Microsoft.VisualStudioCode.Insiders
-winget install --id Microsoft.VisualStudio.2026.Enterprise.Preview -e
+winget install --id Microsoft.VisualStudio.2022.Enterprise.Preview -e
 winget install --id Microsoft.DotNet.SDK.9
 winget install --id Telerik.Fiddler
 winget install --id Git.Git
@@ -75,4 +75,5 @@ Import-WslCommand "awk", "emacs", "grep", "head", "less", "ls", "man", "sed", "s
 # Manual Installations Required
 # - Anyrail
 # - iTrain
+# - ScanSnap Manager
 # - LorexCloud
