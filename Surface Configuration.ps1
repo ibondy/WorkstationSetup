@@ -2,9 +2,9 @@
 
 
 #Office
-#winget install --id Microsoft.Office
-#winget install --id Microsoft.Teams
-winget install --id Microsoft.PowerBI --source winget-pkgs
+#winget install --id Microsoft.Office --source winget
+#winget install --id Microsoft.Teams --source winget
+winget install --id Microsoft.PowerBI --source winget
 
 
 #General software
