@@ -1,7 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\source\\WorkstationSetup\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Source\\WorkstationSetup\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Source\\WorkstationSetup\\Workstation_2025.ps1||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Workstation_2025.ps1||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Source\\WorkstationSetup\\Workstation_2025.ps1||{53EE1FC9-2478-4DD6-9FE2-6B4E499EF22B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Workstation_2025.ps1||{53EE1FC9-2478-4DD6-9FE2-6B4E499EF22B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Source\\WorkstationSetup\\Laptop Configuration.ps1||{53EE1FC9-2478-4DD6-9FE2-6B4E499EF22B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Laptop Configuration.ps1||{53EE1FC9-2478-4DD6-9FE2-6B4E499EF22B}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cde3}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -42,6 +59,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Workstation_2025.ps1",
+              "DocumentMoniker": "D:\\Source\\WorkstationSetup\\Workstation_2025.ps1",
+              "RelativeDocumentMoniker": "Workstation_2025.ps1",
+              "ToolTip": "D:\\Source\\WorkstationSetup\\Workstation_2025.ps1",
+              "RelativeToolTip": "Workstation_2025.ps1",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002383|",
+              "WhenOpened": "2026-02-27T16:06:01.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Workstation_2025.ps1",
+              "DocumentMoniker": "D:\\Source\\WorkstationSetup\\Workstation_2025.ps1",
+              "RelativeDocumentMoniker": "Workstation_2025.ps1",
+              "ToolTip": "D:\\Source\\WorkstationSetup\\Workstation_2025.ps1",
+              "RelativeToolTip": "Workstation_2025.ps1",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002383|",
+              "WhenOpened": "2026-02-27T16:05:06.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Laptop Configuration.ps1",
+              "DocumentMoniker": "D:\\Source\\WorkstationSetup\\Laptop Configuration.ps1",
+              "RelativeDocumentMoniker": "Laptop Configuration.ps1",
+              "ToolTip": "D:\\Source\\WorkstationSetup\\Laptop Configuration.ps1",
+              "RelativeToolTip": "Laptop Configuration.ps1",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002383|",
+              "WhenOpened": "2026-02-26T19:17:31.203Z",
+              "EditorCaption": ""
             }
           ]
         }
